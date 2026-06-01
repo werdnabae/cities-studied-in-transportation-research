@@ -1,5 +1,5 @@
 [project]
-name = "where-transportation-research-looks"
+name = "cities-studied-in-transportation-research"
 version = "0.1.0"
 description = "City-level audit of which cities transportation research studies, and the gap between study geography and author geography."
 readme = "README.md"
@@ -21,7 +21,7 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/werdnabae/where-transportation-research-looks"
+Repository = "https://github.com/werdnabae/cities-studied-in-transportation-research"
 
 [build-system]
 requires = ["hatchling"]

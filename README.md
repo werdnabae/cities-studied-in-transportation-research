@@ -1,4 +1,4 @@
-# Where Transportation Research Looks
+# The Uneven Geography of Cities Studied in Transportation Research
 
 Code and data for a city-level audit of which cities are studied across 18 Elsevier
 transport and urban journals (58,714 articles), and the gap between where research is
