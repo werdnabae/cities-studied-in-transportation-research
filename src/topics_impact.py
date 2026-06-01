@@ -8,10 +8,12 @@ B. Topic x geography: using a transparent author-keyword lexicon, how does the
 Augments results.json and writes tables. Run:  python3 -m src.topics_impact
 """
 from __future__ import annotations
-import json, re
+import json
+import re
 import warnings; warnings.filterwarnings("ignore")
 import numpy as np
 import pandas as pd
+
 from . import config, countries
 from .extract import clean_text
 
@@ -71,8 +73,8 @@ def main():
     R["impact_median_north"] = float(placed[placed.north == 1]["citedby"].median())
     R["impact_median_south"] = float(placed[placed.north == 0]["citedby"].median())
     try:
-        import statsmodels.formula.api as smf
         import statsmodels.api as sm
+        import statsmodels.formula.api as smf
         m = smf.glm("citedby ~ north + english + log_pop + C(continent) + C(year) + C(issn)",
                     data=placed, family=sm.families.NegativeBinomial()).fit()
         ci = m.conf_int()

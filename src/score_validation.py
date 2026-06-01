@@ -13,7 +13,9 @@ import sys
 import warnings; warnings.filterwarnings("ignore")
 import pandas as pd
 from unidecode import unidecode
+
 from . import config
+
 
 def norm(s):
     if pd.isna(s) or str(s).strip() == "":

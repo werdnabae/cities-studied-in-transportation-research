@@ -3,8 +3,10 @@
 Run from project root:  python3 -m src.validate
 """
 import json
+
 from . import config
 from .elsevier_client import get
+
 
 def issn_count(issn):
     r = get(config.SCOPUS_SEARCH, "scopus_search",

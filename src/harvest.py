@@ -4,12 +4,14 @@ Cursor pagination, one resumable JSONL per ISSN. Re-running skips completed jour
 Run:  python3 -m src.harvest
 """
 from __future__ import annotations
+
 import json
 import sys
 import warnings
+
 warnings.filterwarnings("ignore")
 from . import config
-from .elsevier_client import get, QuotaExhausted
+from .elsevier_client import QuotaExhausted, get
 
 FIELDS = ("dc:title", "dc:description", "authkeywords", "prism:coverDate",
           "prism:doi", "eid", "citedby-count", "prism:publicationName", "affiliation")

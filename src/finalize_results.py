@@ -7,10 +7,11 @@ Run:  python3 -m src.finalize_results
 from __future__ import annotations
 import json
 import warnings; warnings.filterwarnings("ignore")
-import numpy as np
 import pandas as pd
+
 from . import config
 from .analysis import gini
+
 
 def main():
     R = json.loads((config.PROCESSED / "results.json").read_text())

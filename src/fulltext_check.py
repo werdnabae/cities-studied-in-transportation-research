@@ -6,14 +6,16 @@ with full text, (ii) how many place-based papers metadata misses, and (iii) that
 city distribution and Gini are stable. Run:  python3 -m src.fulltext_check [N]
 """
 from __future__ import annotations
-import sys, json
+import sys
+import json
 from collections import Counter
 import warnings; warnings.filterwarnings("ignore")
 import numpy as np
 import pandas as pd
+
 from . import config
-from .elsevier_client import get, QuotaExhausted
-from .extract import clean_text, find_cities, BENCHMARK_PSEUDO_CITIES
+from .elsevier_client import QuotaExhausted, get
+from .extract import BENCHMARK_PSEUDO_CITIES, clean_text, find_cities
 
 N = int(sys.argv[1]) if len(sys.argv) > 1 else 800
 SEED = 7

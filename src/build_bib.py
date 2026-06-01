@@ -10,10 +10,22 @@ top hit, accept only on a strong title match.
 Run:  python3 -m src.build_bib   ->  paper/refs_verified.bib  +  citemap.json
 """
 from __future__ import annotations
-import json, time, re, sys
-import urllib.request, urllib.parse
+
+import html
+import json
+import re
+import time
+import urllib.parse
+import urllib.request
+
 from rapidfuzz import fuzz
+
 from . import config
+
+
+def _ltx(s):
+    """HTML-unescape Crossref text and escape LaTeX-special &."""
+    return html.unescape(s or "").replace("&", r"\&")
 
 MAILTO = "andrewbae711@gmail.com"
 CAND = json.loads((config.PROCESSED / "ref_candidates.json").read_text())
@@ -80,9 +92,9 @@ def bibtex(key, cr, etype):
         for a in cr.get("author", []) if a.get("family"))
     if not authors:
         authors = AUTHOR_OVERRIDE.get(cr.get("DOI", ""), cr.get("publisher", ""))
-    title = cr.get("title", [""])[0]
+    title = _ltx(cr.get("title", [""])[0])
     yr = (cr.get("issued", {}).get("date-parts", [[None]])[0] or [None])[0] or ""
-    container = (cr.get("container-title") or [""])[0]
+    container = _ltx((cr.get("container-title") or [""])[0])
     vol = cr.get("volume", ""); iss = cr.get("issue", "")
     pages = cr.get("page", ""); doi = cr.get("DOI", "")
     pub = cr.get("publisher", "")

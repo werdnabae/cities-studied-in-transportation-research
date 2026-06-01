@@ -17,12 +17,15 @@ Outputs (data/processed/):
 Run:  python3 -m src.extract
 """
 from __future__ import annotations
+
+import html
 import json
 import re
-import html
 from collections import Counter
-from unidecode import unidecode
+
 import pandas as pd
+from unidecode import unidecode
+
 from . import config
 
 GAZ = json.loads((config.PROCESSED / "gazetteer.json").read_text())

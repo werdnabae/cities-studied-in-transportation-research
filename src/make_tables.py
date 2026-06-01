@@ -7,6 +7,7 @@ from __future__ import annotations
 import json
 import warnings; warnings.filterwarnings("ignore")
 import pandas as pd
+
 from . import config
 
 PAPER = config.ROOT / "paper"

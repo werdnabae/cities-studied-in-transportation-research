@@ -4,8 +4,11 @@ Keeps the manuscript numbers in exact sync with the analysis (no hand-copying).
 Run:  python3 -m src.make_macros   ->  paper/results_macros.tex
 """
 from __future__ import annotations
+
 import json
+
 from . import config
+
 
 def comma(n):
     return f"{int(round(float(n))):,}"
@@ -55,7 +58,6 @@ def main():
     for d in R.get("continent_representation", []):
         nm = d["continent"].replace(" ", "").upper()
         cmd("REP" + nm, f"{d['rep_ratio']}")
-    cmd("MODELN", comma(R["model_n"]))
 
     # validation
     v = R.get("validation", {})
@@ -101,9 +103,9 @@ def main():
     tg = R.get("topic_geography", [])
     if tg:
         cmd("TOPICMINNORTH", f"{tg[0]['pct_north']}\\%")
-        cmd("TOPICMINNAME", tg[0]["topic"])
+        cmd("TOPICMINNAME", tg[0]["topic"].replace("&", r"\&"))
         cmd("TOPICMAXNORTH", f"{tg[-1]['pct_north']}\\%")
-        cmd("TOPICMAXNAME", tg[-1]["topic"])
+        cmd("TOPICMAXNAME", tg[-1]["topic"].replace("&", r"\&"))
         cmd("TOPICMAXGINI", f"{tg[-1]['gini']}")
 
     # C. wealth model, ZINB, Theil

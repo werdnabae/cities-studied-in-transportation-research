@@ -9,7 +9,9 @@ Design goals (the things that bit us last time):
   * Survive 429/5xx -> exponential backoff with cap.
 """
 import time
+
 import requests
+
 from . import config
 
 _last_call = {}  # api_name -> monotonic timestamp

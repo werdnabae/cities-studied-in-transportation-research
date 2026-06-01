@@ -10,9 +10,11 @@ Outputs:
 Run:  python3 -m src.sample_for_labeling [N]
 """
 from __future__ import annotations
-import sys, json
+import sys
+import json
 import warnings; warnings.filterwarnings("ignore")
 import pandas as pd
+
 from . import config
 from .extract import clean_text
 

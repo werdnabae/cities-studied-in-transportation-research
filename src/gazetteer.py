@@ -21,11 +21,13 @@ Produces:
 Run:  python3 -m src.gazetteer
 """
 from __future__ import annotations
-import json
-import zipfile
+
 import io
+import json
 import urllib.request
+import zipfile
 from pathlib import Path
+
 from . import config
 
 URL = "https://download.geonames.org/export/dump/cities15000.zip"

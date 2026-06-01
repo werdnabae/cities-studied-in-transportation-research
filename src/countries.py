@@ -7,7 +7,9 @@ to study geography on a common key.
 Run standalone to self-test:  python3 -m src.countries
 """
 from __future__ import annotations
+
 import urllib.request
+
 from . import config
 
 RAW = config.EXTERNAL / "countryInfo.txt"

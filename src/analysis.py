@@ -14,12 +14,15 @@ from __future__ import annotations
 import json
 import warnings; warnings.filterwarnings("ignore")
 from collections import Counter
+
+import matplotlib
 import numpy as np
 import pandas as pd
-import matplotlib
+
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
+
 # Keep in-figure fonts close to the manuscript caption size (\footnotesize).
 plt.rcParams.update({"font.size": 9, "axes.labelsize": 9, "xtick.labelsize": 8,
                      "ytick.labelsize": 8, "legend.fontsize": 8})
@@ -222,8 +225,8 @@ def main():
     model_df["english"] = model_df["country"].map(countries.is_english).astype(int)
     model_df["continent"] = model_df["country"].map(countries.continent).fillna("NA")
     try:
-        import statsmodels.formula.api as smf
         import statsmodels.api as sm
+        import statsmodels.formula.api as smf
         m = smf.glm("studies ~ log_pop + north + english + C(continent)",
                     data=model_df, family=sm.families.NegativeBinomial()).fit()
         R["model_irr"] = {k: round(float(np.exp(v)), 3) for k, v in m.params.items()

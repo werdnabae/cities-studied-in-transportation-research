@@ -8,10 +8,12 @@
 Run:  python3 -m src.robust_stats
 """
 from __future__ import annotations
-import json, urllib.request
+import json
+import urllib.request
 import warnings; warnings.filterwarnings("ignore")
 import numpy as np
 import pandas as pd
+
 from . import config, countries
 
 WB = {"gdppc": "NY.GDP.PCAP.CD", "urban": "SP.URB.TOTL.IN.ZS"}
@@ -61,8 +63,8 @@ def main():
     idx["english"] = idx["country"].map(countries.is_english).astype(int)
     idx["log_pop"] = np.log10(idx["pop"].clip(lower=1))
 
-    import statsmodels.formula.api as smf
     import statsmodels.api as sm
+    import statsmodels.formula.api as smf
     # ---- World Bank covariates (optional; skipped if API unreachable) ------
     try:
         gdp = wb_fetch(WB["gdppc"]); urb = wb_fetch(WB["urban"])
@@ -80,7 +82,7 @@ def main():
             "north_ci": [round(float(np.exp(ci.loc["north", 0])), 3),
                          round(float(np.exp(ci.loc["north", 1])), 3)],
             "gdppc_irr": round(float(np.exp(m.params["log_gdppc"])), 3)}
-    except Exception as e:
+    except Exception:
         R["model_wealth_skipped"] = "World Bank API unreachable in this environment"
 
     # ---- zero-inflated NB robustness --------------------------------------

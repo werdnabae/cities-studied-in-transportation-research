@@ -3,10 +3,15 @@ city, plus the matching source field. Reveals whether a hit is real or a false
 friend. Usage:  python3 -m src.inspect_city "Parkersburg" [n]
 """
 from __future__ import annotations
-import sys, json, warnings
+
+import json
+import sys
+import warnings
+
 warnings.filterwarnings("ignore")
 from . import config
-from .extract import process_article, clean_text, find_cities
+from .extract import clean_text, process_article
+
 
 def main():
     target = sys.argv[1].lower()
