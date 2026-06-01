@@ -1,0 +1,410 @@
+[
+ {
+  "key": "pereira2016distributive",
+  "tag": "equity",
+  "title": "Distributive justice and equity in transportation",
+  "year": 2016
+ },
+ {
+  "key": "geurs2004accessibility",
+  "tag": "equity",
+  "title": "Accessibility evaluation of land-use and transport strategies: review and research directions",
+  "year": 2004
+ },
+ {
+  "key": "church2000transport",
+  "tag": "equity",
+  "title": "Transport and social exclusion in London",
+  "year": 2000
+ },
+ {
+  "key": "lucas2012transport",
+  "tag": "equity",
+  "title": "Transport and social exclusion: Where are we now?",
+  "year": 2012
+ },
+ {
+  "key": "preston2007accessibility",
+  "tag": "equity",
+  "title": "Accessibility, mobility and transport-related social exclusion",
+  "year": 2007
+ },
+ {
+  "key": "martens2012justice",
+  "tag": "equity",
+  "title": "Justice in transport as justice in accessibility: applying Walzer\u2019s \u2018Spheres of Justice\u2019 to the transport sector",
+  "year": 2012
+ },
+ {
+  "key": "lucas2015method",
+  "tag": "equity",
+  "title": "A method to evaluate equitable accessibility: combining ethical theories and accessibility-based approaches",
+  "year": 2015
+ },
+ {
+  "key": "geurs2010accessibility",
+  "tag": "equity",
+  "title": "Accessibility appraisal of land-use/transport policy strategies: More than just adding up travel-time savings",
+  "year": 2010
+ },
+ {
+  "key": "cervero2007informal",
+  "tag": "south",
+  "title": "Informal transport: A global perspective",
+  "year": 2007
+ },
+ {
+  "key": "pojani2015sustainable",
+  "tag": "south",
+  "title": "Sustainable Urban Transport in the Developing World:  Beyond Megacities",
+  "year": 2015
+ },
+ {
+  "key": "behrens2016paratransit",
+  "tag": "south",
+  "title": "Paratransit in African Cities",
+  "year": 2015
+ },
+ {
+  "key": "pucher2005urban",
+  "tag": "south",
+  "title": "Urban transport crisis in India",
+  "year": 2005
+ },
+ {
+  "key": "jaramillo2012spatial",
+  "tag": "south",
+  "title": "Spatial disparity in transport social needs and public transport provision in Santiago de Cali (Colombia)",
+  "year": 2012
+ },
+ {
+  "key": "klopp2019mapping",
+  "tag": "south",
+  "title": "Mapping minibuses in Maputo and Nairobi: engaging paratransit in transportation planning in African cities",
+  "year": 2019
+ },
+ {
+  "key": "sheller2006mobilities",
+  "tag": "mobilities",
+  "title": "The New Mobilities Paradigm",
+  "year": 2006
+ },
+ {
+  "key": "cresswell2010politics",
+  "tag": "mobilities",
+  "title": "Towards a Politics of Mobility",
+  "year": 2010
+ },
+ {
+  "key": "shaw2010transport",
+  "tag": "mobilities",
+  "title": "Transport, geography and the \u2018new\u2019 mobilities",
+  "year": 2010
+ },
+ {
+  "key": "keeling2007transportation",
+  "tag": "mobilities",
+  "title": "Transportation geography: new directions on well-worn trails",
+  "year": 2007
+ },
+ {
+  "key": "schwanen2015geographies",
+  "tag": "mobilities",
+  "title": "Geographies of transport I",
+  "year": 2015
+ },
+ {
+  "key": "schwanen2016geographies",
+  "tag": "mobilities",
+  "title": "Geographies of transport II",
+  "year": 2016
+ },
+ {
+  "key": "schwanen2017geographies",
+  "tag": "mobilities",
+  "title": "Geographies of transport III",
+  "year": 2017
+ },
+ {
+  "key": "schwanen2018decolonised",
+  "tag": "mobilities",
+  "title": "Towards decolonised knowledge about transport",
+  "year": 2018
+ },
+ {
+  "key": "wood2020decolonial",
+  "tag": "mobilities",
+  "title": "Decolonial approaches to urban transport geographies: Introduction to the special issue",
+  "year": 2020
+ },
+ {
+  "key": "stefanoudis2021turning",
+  "tag": "bias",
+  "title": "Turning the tide of parachute science",
+  "year": 2021
+ },
+ {
+  "key": "trisos2021decoloniality",
+  "tag": "bias",
+  "title": "Decoloniality and anti-oppressive practices for a more ethical ecology",
+  "year": 2021
+ },
+ {
+  "key": "raja2021colonial",
+  "tag": "bias",
+  "title": "Colonial history and global economics distort our understanding of deep-time biodiversity",
+  "year": 2021
+ },
+ {
+  "key": "asase2021replacing",
+  "tag": "bias",
+  "title": "Replacing \u201cparachute science\u201d with \u201cglobal science\u201d in ecology and conservation biology",
+  "year": 2021
+ },
+ {
+  "key": "nuez2019assessing",
+  "tag": "bias",
+  "title": "Assessing the uneven global distribution of readership, submissions and publications in applied ecology: Obvious problems without obvious solutions",
+  "year": 2019
+ },
+ {
+  "key": "haelewaters2021simple",
+  "tag": "bias",
+  "title": "Ten simple rules for Global North researchers to stop perpetuating helicopter research in the Global South",
+  "year": 2021
+ },
+ {
+  "key": "maas2021women",
+  "tag": "bias",
+  "title": "Women and Global South strikingly underrepresented among top\u2010publishing ecologists",
+  "year": 2021
+ },
+ {
+  "key": "king2004scientific",
+  "tag": "bias",
+  "title": "The scientific impact of nations",
+  "year": 2004
+ },
+ {
+  "key": "montfort2025systematic",
+  "tag": "bias",
+  "title": "Systematic global stocktake of over 50,000 urban climate change studies",
+  "year": 2025
+ },
+ {
+  "key": "gritta2017whats",
+  "tag": "geoparse",
+  "title": "What\u2019s missing in geographical parsing?",
+  "year": 2017
+ },
+ {
+  "key": "gritta2019pragmatic",
+  "tag": "geoparse",
+  "title": "A pragmatic guide to geoparsing evaluation",
+  "year": 2019
+ },
+ {
+  "key": "halterman2017mordecai",
+  "tag": "geoparse",
+  "title": "Mordecai: Full Text Geoparsing and Event Geocoding",
+  "year": 2017
+ },
+ {
+  "key": "karimzadeh2019geotxt",
+  "tag": "geoparse",
+  "title": "GeoTxt: A scalable geoparsing system for unstructured text geolocation",
+  "year": 2019
+ },
+ {
+  "key": "acheson2021extracting",
+  "tag": "geoparse",
+  "title": "Extracting and modeling geographic information from scientific articles",
+  "year": 2021
+ },
+ {
+  "key": "modak2019fifty",
+  "tag": "biblio",
+  "title": "Fifty years of Transportation Research journals: A bibliometric overview",
+  "year": 2019
+ },
+ {
+  "key": "jiang2020bibliometric",
+  "tag": "biblio",
+  "title": "A bibliometric overview of Transportation Research Part B: Methodological in the past forty years (1979\u20132019)",
+  "year": 2020
+ },
+ {
+  "key": "liu2016mapping",
+  "tag": "biblio",
+  "title": "Mapping intellectual structures and dynamics of transport geography research: a scientometric overview from 1982 to 2014",
+  "year": 2016
+ },
+ {
+  "key": "heilig2015scientometric",
+  "tag": "biblio",
+  "title": "A Scientometric Analysis of Public Transport Research",
+  "year": 2015
+ },
+ {
+  "key": "hoekman2010research",
+  "tag": "biblio",
+  "title": "Research collaboration at a distance: Changing spatial patterns of scientific collaboration within Europe",
+  "year": 2010
+ },
+ {
+  "key": "maisonobe2016world",
+  "tag": "biblio",
+  "title": "The world network of scientific collaborations between cities: domestic or international dynamics?",
+  "year": 2016
+ },
+ {
+  "key": "mongeon2015journal",
+  "tag": "biblio",
+  "title": "The journal coverage of Web of Science and Scopus: a comparative analysis",
+  "year": 2015
+ },
+ {
+  "key": "sun2020identifying",
+  "tag": "biblio",
+  "title": "Identifying regional characteristics of transportation research with Transport Research International Documentation (TRID) data",
+  "year": 2020
+ },
+ {
+  "key": "robinson2010cities",
+  "tag": "urbanism",
+  "title": "Cities in a World of Cities: The Comparative Gesture",
+  "year": 2010
+ },
+ {
+  "key": "robinson2015comparative",
+  "tag": "urbanism",
+  "title": "Comparative Urbanism: New Geographies and Cultures of Theorizing the Urban",
+  "year": 2015
+ },
+ {
+  "key": "robinson2002global",
+  "tag": "urbanism",
+  "title": "Global and world cities: a view from off the map",
+  "year": 2002
+ },
+ {
+  "key": "robinson2015thinking",
+  "tag": "urbanism",
+  "title": "Thinking cities through elsewhere",
+  "year": 2015
+ },
+ {
+  "key": "roy2009stcentury",
+  "tag": "urbanism",
+  "title": "The 21st-Century Metropolis: New Geographies of Theory",
+  "year": 2009
+ },
+ {
+  "key": "brenner2015epistemology",
+  "tag": "urbanism",
+  "title": "Towards a new epistemology of the urban?",
+  "year": 2015
+ },
+ {
+  "key": "sheppard2013provincializing",
+  "tag": "urbanism",
+  "title": "Provincializing Global Urbanism: A Manifesto",
+  "year": 2013
+ },
+ {
+  "key": "bunnell2010practising",
+  "tag": "urbanism",
+  "title": "Practising Urban and Regional Research beyond Metrocentricity",
+  "year": 2010
+ },
+ {
+  "key": "marsden2011policy",
+  "tag": "transfer",
+  "title": "Policy transfer and learning in the field of transport: A review of concepts and evidence",
+  "year": 2011
+ },
+ {
+  "key": "marsden2011cities",
+  "tag": "transfer",
+  "title": "How do cities approach policy innovation and policy learning? A study of 30 policies in Northern Europe and North America",
+  "year": 2011
+ },
+ {
+  "key": "marsden2012bounded",
+  "tag": "transfer",
+  "title": "Bounded Rationality in Policy Learning Amongst Cities: Lessons from the Transport Sector",
+  "year": 2012
+ },
+ {
+  "key": "glaser2021learning",
+  "tag": "transfer",
+  "title": "Learning through policy transfer? Reviewing a decade of scholarship for the field of transport",
+  "year": 2021
+ },
+ {
+  "key": "temenos2013geographies",
+  "tag": "transfer",
+  "title": "Geographies of Policy Mobilities",
+  "year": 2013
+ },
+ {
+  "key": "wood2014learning",
+  "tag": "transfer",
+  "title": "Learning through Policy Tourism: Circulating Bus Rapid Transit from South America to South Africa",
+  "year": 2014
+ },
+ {
+  "key": "sikder2013spatial",
+  "tag": "transfer",
+  "title": "Spatial transferability of travel forecasting models: a review and synthesis",
+  "year": 2013
+ },
+ {
+  "key": "yasmin2015assessment",
+  "tag": "transfer",
+  "title": "Assessment of spatial transferability of an activity-based model, TASHA",
+  "year": 2015
+ },
+ {
+  "key": "flyvbjerg2006five",
+  "tag": "transfer",
+  "title": "Five Misunderstandings About Case-Study Research",
+  "year": 2006
+ },
+ {
+  "key": "robinson2006ordinary",
+  "tag": "urbanism",
+  "title": "Ordinary Cities",
+  "year": 2006
+ },
+ {
+  "key": "roy2011worlding",
+  "tag": "urbanism",
+  "title": "Worlding Cities",
+  "year": 2011
+ },
+ {
+  "key": "martens2017transport",
+  "tag": "equity",
+  "title": "Transport Justice",
+  "year": 2017
+ },
+ {
+  "key": "vasconcellos2001urban",
+  "tag": "south",
+  "title": "Urban Transport Environment and Equity",
+  "year": 2001
+ },
+ {
+  "key": "cervero2000informal",
+  "tag": "south",
+  "title": "Informal Transport in the Developing World",
+  "year": 2000
+ },
+ {
+  "key": "bae2026workforce",
+  "tag": "self",
+  "title": "Global Sources of the US Transportation Research Workforce",
+  "year": 2026
+ }
+]

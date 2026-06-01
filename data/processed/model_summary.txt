@@ -1,0 +1,25 @@
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:                studies   No. Observations:                19408
+Model:                            GLM   Df Residuals:                    19398
+Model Family:        NegativeBinomial   Df Model:                            9
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -6602.4
+Date:                Sun, 31 May 2026   Deviance:                       7493.6
+Time:                        19:12:51   Pearson chi2:                 7.27e+04
+No. Iterations:                    21   Pseudo R-squ. (CS):             0.8562
+Covariance Type:            nonrobust                                         
+=================================================================================================
+                                    coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+Intercept                       -26.2300      0.294    -89.279      0.000     -26.806     -25.654
+C(continent)[T.Antarctica]       -0.9962   1.28e+04  -7.79e-05      1.000   -2.51e+04    2.51e+04
+C(continent)[T.Asia]             -0.1262      0.093     -1.356      0.175      -0.309       0.056
+C(continent)[T.Europe]            0.8895      0.120      7.416      0.000       0.654       1.125
+C(continent)[T.North America]     0.7197      0.115      6.237      0.000       0.493       0.946
+C(continent)[T.Oceania]           0.7745      0.227      3.410      0.001       0.329       1.220
+C(continent)[T.South America]     0.7013      0.123      5.685      0.000       0.460       0.943
+log_pop                           4.4220      0.047     93.155      0.000       4.329       4.515
+north                             1.5990      0.075     21.419      0.000       1.453       1.745
+english                           0.4479      0.059      7.625      0.000       0.333       0.563
+=================================================================================================

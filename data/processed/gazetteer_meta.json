@@ -1,0 +1,8 @@
+{
+  "n_cities_rows": 33747,
+  "n_searchable_names": 54008,
+  "pop_override": 500000,
+  "pop_floor_single": 100000,
+  "dict_words_loaded": 234456,
+  "single_token_dict_drops": 1797
+}

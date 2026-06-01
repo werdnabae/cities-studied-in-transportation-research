@@ -1,0 +1,9 @@
+requests
+pandas
+pyarrow
+tqdm
+rapidfuzz
+unidecode
+statsmodels
+patsy
+matplotlib

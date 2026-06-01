@@ -1,0 +1,1063 @@
+{
+  "n_articles": 58714,
+  "n_placed": 17348,
+  "pct_placed": 29.5,
+  "n_distinct_cities": 1180,
+  "n_distinct_countries": 141,
+  "gini_cities": 0.812,
+  "top10_share": 25.5,
+  "top20_share": 37.5,
+  "top50_share": 57.8,
+  "top20_cities": [
+    {
+      "city": "Beijing",
+      "country": "CN",
+      "n": 897
+    },
+    {
+      "city": "Shanghai",
+      "country": "CN",
+      "n": 679
+    },
+    {
+      "city": "Hong Kong",
+      "country": "HK",
+      "n": 509
+    },
+    {
+      "city": "London",
+      "country": "GB",
+      "n": 453
+    },
+    {
+      "city": "New York City",
+      "country": "US",
+      "n": 440
+    },
+    {
+      "city": "Singapore",
+      "country": "SG",
+      "n": 350
+    },
+    {
+      "city": "Shenzhen",
+      "country": "CN",
+      "n": 320
+    },
+    {
+      "city": "Seoul",
+      "country": "KR",
+      "n": 268
+    },
+    {
+      "city": "Nanjing",
+      "country": "CN",
+      "n": 256
+    },
+    {
+      "city": "Chicago",
+      "country": "US",
+      "n": 253
+    },
+    {
+      "city": "Toronto",
+      "country": "CA",
+      "n": 239
+    },
+    {
+      "city": "Guangzhou",
+      "country": "CN",
+      "n": 235
+    },
+    {
+      "city": "Wuhan",
+      "country": "CN",
+      "n": 228
+    },
+    {
+      "city": "Sydney",
+      "country": "AU",
+      "n": 219
+    },
+    {
+      "city": "Tehran",
+      "country": "IR",
+      "n": 207
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "n": 199
+    },
+    {
+      "city": "Melbourne",
+      "country": "AU",
+      "n": 192
+    },
+    {
+      "city": "Chengdu",
+      "country": "CN",
+      "n": 187
+    },
+    {
+      "city": "Los Angeles",
+      "country": "US",
+      "n": 185
+    },
+    {
+      "city": "Tokyo",
+      "country": "JP",
+      "n": 181
+    }
+  ],
+  "studies_by_continent": {
+    "Asia": 8021,
+    "Europe": 3836,
+    "North America": 3321,
+    "South America": 875,
+    "Oceania": 685,
+    "Africa": 610
+  },
+  "pct_global_north_studies": 56.1,
+  "most_over_studied": [
+    {
+      "city": "Washington",
+      "country": "US",
+      "pop": 689545,
+      "studies": 152,
+      "index": 42.76483567717317
+    },
+    {
+      "city": "Lisbon",
+      "country": "PT",
+      "pop": 517802,
+      "studies": 109,
+      "index": 40.83838957309714
+    },
+    {
+      "city": "San Francisco",
+      "country": "US",
+      "pop": 827526,
+      "studies": 164,
+      "index": 38.44749362931994
+    },
+    {
+      "city": "Amsterdam",
+      "country": "NL",
+      "pop": 741636,
+      "studies": 100,
+      "index": 26.158632133106625
+    },
+    {
+      "city": "Atlanta",
+      "country": "US",
+      "pop": 510823,
+      "studies": 67,
+      "index": 25.44545333990052
+    },
+    {
+      "city": "Athens",
+      "country": "GR",
+      "pop": 664046,
+      "studies": 84,
+      "index": 24.54070045232059
+    },
+    {
+      "city": "Portland",
+      "country": "US",
+      "pop": 652503,
+      "studies": 82,
+      "index": 24.380194890365722
+    },
+    {
+      "city": "Stockholm",
+      "country": "SE",
+      "pop": 1515017,
+      "studies": 180,
+      "index": 23.049464092616518
+    },
+    {
+      "city": "Rotterdam",
+      "country": "NL",
+      "pop": 868135,
+      "studies": 101,
+      "index": 22.570435627725352
+    },
+    {
+      "city": "Van",
+      "country": "TR",
+      "pop": 525016,
+      "studies": 61,
+      "index": 22.540478410958684
+    },
+    {
+      "city": "Austin",
+      "country": "US",
+      "pop": 974447,
+      "studies": 106,
+      "index": 21.103450776398084
+    },
+    {
+      "city": "Dublin",
+      "country": "IE",
+      "pop": 1024027,
+      "studies": 109,
+      "index": 20.650041256459883
+    },
+    {
+      "city": "Lyon",
+      "country": "FR",
+      "pop": 520774,
+      "studies": 55,
+      "index": 20.48892766414561
+    },
+    {
+      "city": "Barcelona",
+      "country": "ES",
+      "pop": 1686208,
+      "studies": 168,
+      "index": 19.328758934320888
+    },
+    {
+      "city": "Manchester",
+      "country": "GB",
+      "pop": 568996,
+      "studies": 55,
+      "index": 18.752505844272658
+    }
+  ],
+  "most_under_studied_big": [
+    {
+      "city": "Nizhniy Novgorod",
+      "country": "RU",
+      "pop": 1259013,
+      "studies": 0,
+      "index": 0.0
+    },
+    {
+      "city": "Qinzhou",
+      "country": "CN",
+      "pop": 1296300,
+      "studies": 0,
+      "index": 0.0
+    },
+    {
+      "city": "Bayan Nur",
+      "country": "CN",
+      "pop": 1760000,
+      "studies": 0,
+      "index": 0.0
+    },
+    {
+      "city": "Qingyang",
+      "country": "CN",
+      "pop": 2125400,
+      "studies": 0,
+      "index": 0.0
+    },
+    {
+      "city": "Qingpu",
+      "country": "CN",
+      "pop": 1271424,
+      "studies": 0,
+      "index": 0.0
+    },
+    {
+      "city": "Prayagraj",
+      "country": "IN",
+      "pop": 1073438,
+      "studies": 0,
+      "index": 0.0
+    },
+    {
+      "city": "Jinzhong",
+      "country": "CN",
+      "pop": 1226617,
+      "studies": 0,
+      "index": 0.0
+    },
+    {
+      "city": "Qingyuan",
+      "country": "CN",
+      "pop": 1738424,
+      "studies": 0,
+      "index": 0.0
+    },
+    {
+      "city": "Puyang",
+      "country": "CN",
+      "pop": 3590000,
+      "studies": 0,
+      "index": 0.0
+    },
+    {
+      "city": "Putuo",
+      "country": "CN",
+      "pop": 1239100,
+      "studies": 0,
+      "index": 0.0
+    },
+    {
+      "city": "Bazhong",
+      "country": "CN",
+      "pop": 2712894,
+      "studies": 0,
+      "index": 0.0
+    },
+    {
+      "city": "Putian",
+      "country": "CN",
+      "pop": 1539389,
+      "studies": 0,
+      "index": 0.0
+    },
+    {
+      "city": "Jepara",
+      "country": "ID",
+      "pop": 1257912,
+      "studies": 0,
+      "index": 0.0
+    },
+    {
+      "city": "Neijiang",
+      "country": "CN",
+      "pop": 1251095,
+      "studies": 0,
+      "index": 0.0
+    },
+    {
+      "city": "Gujranwala",
+      "country": "PK",
+      "pop": 2511118,
+      "studies": 0,
+      "index": 0.0
+    }
+  ],
+  "n_cities_over_1m": 558,
+  "pct_over_1m_zero_studies": 32.6,
+  "pct_over_1m_leq1_study": 46.4,
+  "pct_local_studies": 82.9,
+  "gap_coverage": 99.3,
+  "pct_south_studied_by_allnorth": 14.6,
+  "pct_north_studied_by_allnorth": 88.3,
+  "quad_counts": {
+    "over_local": 157,
+    "over_outsider": 144,
+    "under_outsider": 46,
+    "under_local": 33
+  },
+  "local_share_median": 0.872,
+  "examples_over_outsider": [
+    {
+      "study_city": "Shanghai",
+      "study_country": "CN",
+      "n": 678,
+      "index": 5.295674068284397,
+      "local_share": 0.8687315634218289
+    },
+    {
+      "study_city": "Hong Kong",
+      "study_country": "HK",
+      "n": 505,
+      "index": 13.351259911391324,
+      "local_share": 0.8613861386138614
+    },
+    {
+      "study_city": "London",
+      "study_country": "GB",
+      "n": 446,
+      "index": 9.806174762324419,
+      "local_share": 0.7017937219730942
+    },
+    {
+      "study_city": "New York City",
+      "study_country": "US",
+      "n": 437,
+      "index": 9.69547528198984,
+      "local_share": 0.7276887871853547
+    },
+    {
+      "study_city": "Singapore",
+      "study_country": "SG",
+      "n": 345,
+      "index": 12.041896457045121,
+      "local_share": 0.7739130434782608
+    },
+    {
+      "study_city": "Shenzhen",
+      "study_country": "CN",
+      "n": 318,
+      "index": 3.548598046193972,
+      "local_share": 0.8207547169811321
+    },
+    {
+      "study_city": "Chicago",
+      "study_country": "US",
+      "n": 252,
+      "index": 18.421222731988312,
+      "local_share": 0.8650793650793651
+    },
+    {
+      "study_city": "Paris",
+      "study_country": "FR",
+      "n": 196,
+      "index": 18.052580821467732,
+      "local_share": 0.5255102040816326
+    },
+    {
+      "study_city": "Tokyo",
+      "study_country": "JP",
+      "n": 180,
+      "index": 3.607658076706166,
+      "local_share": 0.8111111111111111
+    },
+    {
+      "study_city": "Barcelona",
+      "study_country": "ES",
+      "n": 168,
+      "index": 19.328758934320888,
+      "local_share": 0.8452380952380952
+    }
+  ],
+  "examples_over_local": [
+    {
+      "study_city": "Beijing",
+      "study_country": "CN",
+      "n": 895,
+      "index": 9.177891131645358,
+      "local_share": 0.9039106145251397
+    },
+    {
+      "study_city": "Seoul",
+      "study_country": "KR",
+      "n": 266,
+      "index": 5.023763052634998,
+      "local_share": 0.8947368421052632
+    },
+    {
+      "study_city": "Nanjing",
+      "study_country": "CN",
+      "n": 256,
+      "index": 5.331846353334738,
+      "local_share": 0.9453125
+    },
+    {
+      "study_city": "Toronto",
+      "study_country": "CA",
+      "n": 239,
+      "index": 16.592888697287712,
+      "local_share": 0.9581589958158996
+    },
+    {
+      "study_city": "Guangzhou",
+      "study_country": "CN",
+      "n": 235,
+      "index": 2.8322800811252877,
+      "local_share": 0.9063829787234042
+    },
+    {
+      "study_city": "Wuhan",
+      "study_country": "CN",
+      "n": 228,
+      "index": 4.256107432936252,
+      "local_share": 0.9342105263157895
+    },
+    {
+      "study_city": "Sydney",
+      "study_country": "AU",
+      "n": 218,
+      "index": 7.645243852194856,
+      "local_share": 0.9587155963302753
+    },
+    {
+      "study_city": "Tehran",
+      "study_country": "IR",
+      "n": 206,
+      "index": 5.613958439707293,
+      "local_share": 0.912621359223301
+    },
+    {
+      "study_city": "Melbourne",
+      "study_country": "AU",
+      "n": 192,
+      "index": 6.96139143108877,
+      "local_share": 0.921875
+    },
+    {
+      "study_city": "Chengdu",
+      "study_country": "CN",
+      "n": 187,
+      "index": 2.6737461854998656,
+      "local_share": 0.8823529411764706
+    }
+  ],
+  "trend": [
+    {
+      "period": 1990,
+      "n": 147,
+      "gini": 0.289,
+      "top10_share": 29.3,
+      "pct_north": 72.1,
+      "pct_africa": 6.8
+    },
+    {
+      "period": 1995,
+      "n": 287,
+      "gini": 0.441,
+      "top10_share": 36.2,
+      "pct_north": 74.9,
+      "pct_africa": 5.2
+    },
+    {
+      "period": 2000,
+      "n": 372,
+      "gini": 0.451,
+      "top10_share": 32.3,
+      "pct_north": 71.2,
+      "pct_africa": 5.4
+    },
+    {
+      "period": 2005,
+      "n": 576,
+      "gini": 0.522,
+      "top10_share": 28.8,
+      "pct_north": 75.7,
+      "pct_africa": 3.0
+    },
+    {
+      "period": 2010,
+      "n": 1533,
+      "gini": 0.604,
+      "top10_share": 22.8,
+      "pct_north": 73.1,
+      "pct_africa": 4.1
+    },
+    {
+      "period": 2015,
+      "n": 3697,
+      "gini": 0.691,
+      "top10_share": 24.3,
+      "pct_north": 60.2,
+      "pct_africa": 3.3
+    },
+    {
+      "period": 2020,
+      "n": 7120,
+      "gini": 0.761,
+      "top10_share": 27.3,
+      "pct_north": 51.7,
+      "pct_africa": 3.3
+    },
+    {
+      "period": 2025,
+      "n": 2034,
+      "gini": 0.659,
+      "top10_share": 30.4,
+      "pct_north": 46.0,
+      "pct_africa": 2.8
+    }
+  ],
+  "trend_gini_first_last": [
+    0.289,
+    0.659
+  ],
+  "trend_north_first_last": [
+    72.1,
+    46.0
+  ],
+  "model_irr": {
+    "log_pop": 83.266,
+    "north": 4.948,
+    "english": 1.565
+  },
+  "model_n": 19408,
+  "model_pseudo_r2": 0.834,
+  "top_countries": [
+    {
+      "country": "CN",
+      "name": "China",
+      "received": 4054
+    },
+    {
+      "country": "US",
+      "name": "United States",
+      "received": 2501
+    },
+    {
+      "country": "GB",
+      "name": "United Kingdom",
+      "received": 752
+    },
+    {
+      "country": "CA",
+      "name": "Canada",
+      "received": 682
+    },
+    {
+      "country": "AU",
+      "name": "Australia",
+      "received": 589
+    },
+    {
+      "country": "HK",
+      "name": "Hong Kong",
+      "received": 569
+    },
+    {
+      "country": "IN",
+      "name": "India",
+      "received": 560
+    },
+    {
+      "country": "ES",
+      "name": "Spain",
+      "received": 415
+    },
+    {
+      "country": "JP",
+      "name": "Japan",
+      "received": 396
+    },
+    {
+      "country": "IR",
+      "name": "Iran",
+      "received": 389
+    },
+    {
+      "country": "KR",
+      "name": "South Korea",
+      "received": 360
+    },
+    {
+      "country": "SG",
+      "name": "Singapore",
+      "received": 354
+    },
+    {
+      "country": "BR",
+      "name": "Brazil",
+      "received": 330
+    },
+    {
+      "country": "IT",
+      "name": "Italy",
+      "received": 327
+    },
+    {
+      "country": "TR",
+      "name": "Turkey",
+      "received": 310
+    },
+    {
+      "country": "FR",
+      "name": "France",
+      "received": 308
+    },
+    {
+      "country": "DE",
+      "name": "Germany",
+      "received": 290
+    },
+    {
+      "country": "NL",
+      "name": "The Netherlands",
+      "received": 267
+    },
+    {
+      "country": "SE",
+      "name": "Sweden",
+      "received": 249
+    },
+    {
+      "country": "CL",
+      "name": "Chile",
+      "received": 203
+    }
+  ],
+  "attention_magnets": [
+    {
+      "country": "ET",
+      "name": "Ethiopia",
+      "received": 26.0,
+      "produced": 17.0,
+      "ratio": 1.5294117647058822
+    },
+    {
+      "country": "PH",
+      "name": "Philippines",
+      "received": 45.0,
+      "produced": 30.0,
+      "ratio": 1.5
+    },
+    {
+      "country": "NG",
+      "name": "Nigeria",
+      "received": 101.0,
+      "produced": 68.0,
+      "ratio": 1.4852941176470589
+    },
+    {
+      "country": "EG",
+      "name": "Egypt",
+      "received": 83.0,
+      "produced": 58.0,
+      "ratio": 1.4310344827586208
+    },
+    {
+      "country": "TZ",
+      "name": "Tanzania",
+      "received": 36.0,
+      "produced": 26.0,
+      "ratio": 1.3846153846153846
+    },
+    {
+      "country": "EC",
+      "name": "Ecuador",
+      "received": 27.0,
+      "produced": 20.0,
+      "ratio": 1.35
+    },
+    {
+      "country": "MX",
+      "name": "Mexico",
+      "received": 98.0,
+      "produced": 75.0,
+      "ratio": 1.3066666666666666
+    },
+    {
+      "country": "AR",
+      "name": "Argentina",
+      "received": 31.0,
+      "produced": 24.0,
+      "ratio": 1.2916666666666667
+    },
+    {
+      "country": "GH",
+      "name": "Ghana",
+      "received": 94.0,
+      "produced": 73.0,
+      "ratio": 1.2876712328767124
+    },
+    {
+      "country": "KE",
+      "name": "Kenya",
+      "received": 25.0,
+      "produced": 20.0,
+      "ratio": 1.25
+    }
+  ],
+  "attention_exporters": [
+    {
+      "country": "CH",
+      "name": "Switzerland",
+      "received": 17.0,
+      "produced": 194.0,
+      "ratio": 0.08762886597938144
+    },
+    {
+      "country": "BE",
+      "name": "Belgium",
+      "received": 79.0,
+      "produced": 300.0,
+      "ratio": 0.2633333333333333
+    },
+    {
+      "country": "NL",
+      "name": "The Netherlands",
+      "received": 267.0,
+      "produced": 798.0,
+      "ratio": 0.33458646616541354
+    },
+    {
+      "country": "SA",
+      "name": "Saudi Arabia",
+      "received": 25.0,
+      "produced": 63.0,
+      "ratio": 0.3968253968253968
+    },
+    {
+      "country": "GB",
+      "name": "United Kingdom",
+      "received": 752.0,
+      "produced": 1806.0,
+      "ratio": 0.416389811738649
+    },
+    {
+      "country": "HK",
+      "name": "Hong Kong",
+      "received": 569.0,
+      "produced": 1189.0,
+      "ratio": 0.4785534062237174
+    },
+    {
+      "country": "AU",
+      "name": "Australia",
+      "received": 589.0,
+      "produced": 1220.0,
+      "ratio": 0.48278688524590163
+    },
+    {
+      "country": "IL",
+      "name": "Israel",
+      "received": 71.0,
+      "produced": 141.0,
+      "ratio": 0.5035460992907801
+    },
+    {
+      "country": "DE",
+      "name": "Germany",
+      "received": 290.0,
+      "produced": 575.0,
+      "ratio": 0.5043478260869565
+    },
+    {
+      "country": "NZ",
+      "name": "New Zealand",
+      "received": 95.0,
+      "produced": 187.0,
+      "ratio": 0.5080213903743316
+    }
+  ],
+  "continent_representation": [
+    {
+      "continent": "Asia",
+      "studies": 8021,
+      "studies_pct": 46.2,
+      "pop_pct": 59.5,
+      "rep_ratio": 0.78
+    },
+    {
+      "continent": "Europe",
+      "studies": 3836,
+      "studies_pct": 22.1,
+      "pop_pct": 9.9,
+      "rep_ratio": 2.22
+    },
+    {
+      "continent": "North America",
+      "studies": 3321,
+      "studies_pct": 19.1,
+      "pop_pct": 7.6,
+      "rep_ratio": 2.5
+    },
+    {
+      "continent": "South America",
+      "studies": 875,
+      "studies_pct": 5.0,
+      "pop_pct": 5.6,
+      "rep_ratio": 0.91
+    },
+    {
+      "continent": "Oceania",
+      "studies": 685,
+      "studies_pct": 3.9,
+      "pop_pct": 0.6,
+      "rep_ratio": 6.99
+    },
+    {
+      "continent": "Africa",
+      "studies": 610,
+      "studies_pct": 3.5,
+      "pop_pct": 16.7,
+      "rep_ratio": 0.21
+    }
+  ],
+  "regional_understudy": [
+    {
+      "continent": "Asia",
+      "n_cities": 364,
+      "pct_zero": 36.3,
+      "median_studies": 1.0
+    },
+    {
+      "continent": "Europe",
+      "n_cities": 42,
+      "pct_zero": 31.0,
+      "median_studies": 13.5
+    },
+    {
+      "continent": "Africa",
+      "n_cities": 72,
+      "pct_zero": 29.2,
+      "median_studies": 2.0
+    },
+    {
+      "continent": "North America",
+      "n_cities": 39,
+      "pct_zero": 25.6,
+      "median_studies": 3.0
+    },
+    {
+      "continent": "South America",
+      "n_cities": 35,
+      "pct_zero": 17.1,
+      "median_studies": 8.0
+    },
+    {
+      "continent": "Oceania",
+      "n_cities": 6,
+      "pct_zero": 0.0,
+      "median_studies": 77.0
+    }
+  ],
+  "model_table": [
+    {
+      "term": "Intercept",
+      "coef": -26.23,
+      "se": 0.294,
+      "irr": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 0.0
+    },
+    {
+      "term": "log10 population",
+      "coef": 4.422,
+      "se": 0.047,
+      "irr": 83.266,
+      "ci_low": 75.868,
+      "ci_high": 91.385,
+      "p": 0.0
+    },
+    {
+      "term": "Global North",
+      "coef": 1.599,
+      "se": 0.075,
+      "irr": 4.948,
+      "ci_low": 4.275,
+      "ci_high": 5.728,
+      "p": 8.831482406192999e-102
+    },
+    {
+      "term": "English-speaking",
+      "coef": 0.448,
+      "se": 0.059,
+      "irr": 1.565,
+      "ci_low": 1.395,
+      "ci_high": 1.756,
+      "p": 2.4490811490120988e-14
+    }
+  ],
+  "model_continent_fe": true,
+  "robustness": {
+    "anchored_n": 7244,
+    "anchored_share_of_placed": 41.8,
+    "gini_all": 0.812,
+    "gini_anchored": 0.75,
+    "top20_share_all": 37.5,
+    "top20_share_anchored": 36.5,
+    "top20_overlap": 16
+  },
+  "validation": {
+    "n": 120,
+    "tp": 30,
+    "fp": 10,
+    "fn": 4,
+    "tn": 76,
+    "precision": 0.75,
+    "recall": 0.882,
+    "f1": 0.811,
+    "city_accuracy_given_detection": 0.967,
+    "n_annotators": 3,
+    "method": "independent blind LLM annotation"
+  },
+  "impact_mean_north": 48.7,
+  "impact_mean_south": 46.9,
+  "impact_median_north": 29.0,
+  "impact_median_south": 30.0,
+  "impact_model": {
+    "north_irr": 0.903,
+    "north_ci": [
+      0.849,
+      0.959
+    ],
+    "north_p": 0.0009815523837950794,
+    "logpop_irr": 1.124,
+    "n": 13585
+  },
+  "topic_geography": [
+    {
+      "topic": "Environment & emissions",
+      "n": 2610,
+      "pct_north": 54.4,
+      "pct_africa": 3.1,
+      "gini": 0.661,
+      "top_city": "Beijing, CN"
+    },
+    {
+      "topic": "Equity & justice",
+      "n": 1947,
+      "pct_north": 58.9,
+      "pct_africa": 3.4,
+      "gini": 0.639,
+      "top_city": "Beijing, CN"
+    },
+    {
+      "topic": "Public transit",
+      "n": 5154,
+      "pct_north": 59.5,
+      "pct_africa": 2.7,
+      "gini": 0.743,
+      "top_city": "Beijing, CN"
+    },
+    {
+      "topic": "Safety",
+      "n": 1176,
+      "pct_north": 60.3,
+      "pct_africa": 3.1,
+      "gini": 0.561,
+      "top_city": "Shanghai, CN"
+    },
+    {
+      "topic": "Freight & logistics",
+      "n": 1299,
+      "pct_north": 62.3,
+      "pct_africa": 4.2,
+      "gini": 0.619,
+      "top_city": "Hong Kong, HK"
+    },
+    {
+      "topic": "Active travel",
+      "n": 2400,
+      "pct_north": 62.7,
+      "pct_africa": 2.1,
+      "gini": 0.664,
+      "top_city": "Beijing, CN"
+    },
+    {
+      "topic": "Aviation",
+      "n": 801,
+      "pct_north": 69.7,
+      "pct_africa": 3.6,
+      "gini": 0.605,
+      "top_city": "London, GB"
+    },
+    {
+      "topic": "Automation & ITS",
+      "n": 532,
+      "pct_north": 78.4,
+      "pct_africa": 1.1,
+      "gini": 0.505,
+      "top_city": "Singapore, SG"
+    }
+  ],
+  "model_wealth_skipped": "World Bank API unreachable in this environment",
+  "model_zinb_north_irr": 4.171,
+  "theil_total": 4.464,
+  "theil_between_continent": 0.079,
+  "theil_within_continent": 4.384,
+  "theil_pct_within": 98.2,
+  "gini_boot_ci": [
+    0.787,
+    0.796
+  ],
+  "model_wealth": {
+    "n": 19145,
+    "north_irr": 1.418,
+    "north_ci": [
+      1.152,
+      1.745
+    ],
+    "gdppc_irr": 4.139
+  }
+}

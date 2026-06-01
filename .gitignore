@@ -1,0 +1,40 @@
+# Credentials — never commit (these live in ~/.config/elsevier/, but guard anyway)
+**/apikey
+**/insttoken
+*.env
+.env
+secrets*
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Local IDE / agent config
+.claude/
+
+# Other paper's materials (extracted template), not part of this project
+reference/
+
+# Manuscript kept separately; not part of this code + data release
+paper/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Raw Scopus metadata is Elsevier-restricted; regenerate with src.harvest
+data/raw/
+
+# Files containing raw Scopus title/abstract text (Elsevier-restricted)
+data/processed/validation_blind.csv
+data/processed/val_chunk_*.json
